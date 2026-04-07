@@ -14,7 +14,8 @@
 - Jennifer Hellen Campos Silva -  Desenvolvedora Front-End <br>
 - José Vítor Machado de Oliveira - Product owner e Scrum Master <br>
 
-
+### Protótipo
+https://www.figma.com/design/nUXzaAtovngSzjsLQPadUO/GRADE-UFLA?node-id=0-1&t=92Dxv9XRBfhRPCjs-1
 ## 2. Objetivo do trabalho
 
 ### Identificação do problema escolhido
