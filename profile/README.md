@@ -1,4 +1,24 @@
-# Grade UFLA
+# Trabalho Final de Engenharia de Software
+
+----
+## 1. Identificação do projeto
+**Nome do projeto:** `GRADE UFLA`  
+**Problema escolhido:** `Simplificar o processo de escolha e organização de disciplinas na grade horária semestral dos alunos da UFLA`  
+**Turma/Semestre:** `14A / 2026/1`  
+**Docente:** `Johnatan Alves de Oliveira`
+
+
+### Composição do grupo
+- Ana Clara Rocha Gomes -  Designer <br>
+- Bárbara Oliveira Fonseca - Desenvolvedora SQL <br>
+- Fernando Chaves Scarabeli -  Desenvolvedor Back-End <br>
+- Jennifer Hellen Campos Silva -  Desenvolvedora Front-End <br>
+- José Vítor Machado de Oliveira - Product owner e Scrum Master <br>
+
+----
+
+## 2. Objetivo do trabalho
+
 ### Identificação do problema escolhido
 O problema central está na dificuldade que os estudantes da UFLA enfrentam ao organizar suas disciplinas a cada semestre. Atualmente, o processo de escolha e montagem da grade horária não oferece uma forma simples de visualizar previamente diferentes combinações de turmas antes da matrícula oficial.
 ### Contextualização do problema
@@ -14,12 +34,6 @@ O gradeUFLA é uma aplicação web pública para facilitar a gestão acadêmica 
 - **Para o usuário final:** Permite visualizar grades horárias, montar horários de disciplinas obrigatórias e eletivas e, por fim, exportar os resultados de forma totalmente gratuita.
 - **Para a administração:** Conta com um painel interno (com autenticação obrigatória) que gerencia os dados do sistema, fornece análises de uso (analytics) e controla a atualização dos dados das disciplinas por meio de scraping do SIG da universidade.
 
-### Composição do grupo
-`Ana Clara Rocha Gomes`  `Designer`<br>
-`Bárbara Oliveira Fonseca`  `Desenvolvedora SQL`<br>
-`Fernando Chaves Scarabeli`  `Desenvolvedor Back-End`<br>
-`Jennifer Hellen Campos Silva`  `Desenvolvedora Front-End`<br>
-`José Vítor Machado de Oliveira`  `Product owner e Scrum Master`<br>
 
 ### Organização inicial do projeto em formato ágil
 O projeto seguirá os preceitos ágeis (Scrum), coordenado pelo Product Owner (PO), José Vítor. A estrutura será a seguinte:
@@ -29,8 +43,41 @@ O projeto seguirá os preceitos ágeis (Scrum), coordenado pelo Product Owner (P
 - Organização das Tarefas: Serão utilizadas Issues separadas por funcionalidade, Labels para indicar prioridades e Milestones para agrupar as entregas de cada sprint.
 - Evidências: Todas as reuniões e decisões da equipe exigem documentação comprobatória, como capturas de tela das reuniões anexadas ao GitHub.
 
-#
-### Definição do escopo inicial da aplicação web
+---
+
+## 3. Organização do repositório
+
+```text
+.
+├── README.md
+├── .gitignore
+├── .github
+│   └── ISSUE_TEMPLATE
+│       ├── user-story.md
+│       ├── sprint-task.md
+│       └── bug-report.md
+├── docs
+│   ├── 01_problema_e_visao_do_produto.md
+│   ├── 02_scrum_e_organizacao_do_grupo.md
+│   ├── 03_product_backlog.md
+│   ├── 04_requisitos.md
+│   ├── 05_modelagem.md
+│   ├── 06_arquitetura_e_projeto.md
+│   ├── 07_padroes_de_projeto.md
+│   ├── 08_testes.md
+│   ├── 09_entregas_incrementais.md
+│   └── 10_apresentacao_final.md
+├── sprints
+│   ├── sprint_01.md
+│   ├── sprint_02.md
+│   └── sprint_review_retro_template.md
+└── entregas
+    └── entrega_template.md
+```
+
+---
+
+## 4. Definição do escopo inicial da aplicação web
 O escopo inicial do sistema foi dividido em dois grandes blocos de funcionalidades:
 
 `Área do aluno:`
@@ -45,6 +92,15 @@ O escopo inicial do sistema foi dividido em dois grandes blocos de funcionalidad
 - Acompanhar o engajamento através de painéis de Analytics de acesso e uso.
 - Acionar manualmente (via trigger de API) o bot responsável por fazer o scraping das informações atualizadas do SIG.
 
+## 5. Entregas previstas
 
+| Entrega | Foco principal | Arquivo-base |
+|---|---|---|
+| Entrega 1 | Problema, visão do produto e organização do grupo | `docs/01_problema_e_visao_do_produto.md` e `docs/02_scrum_e_organizacao_do_grupo.md` |
+| Entrega 2 | Backlog e requisitos | `docs/03_product_backlog.md` e `docs/04_requisitos.md` |
+| Entrega 3 | Modelagem e decisões de projeto | `docs/05_modelagem.md` |
+| Entrega 4 | Arquitetura e padrões | `docs/06_arquitetura_e_projeto.md` e `docs/07_padroes_de_projeto.md` |
+| Entrega 5 | Estratégia de testes e evidências | `docs/08_testes.md` |
+| Entrega final | Consolidação e apresentação | `docs/09_entregas_incrementais.md` e `docs/10_apresentacao_final.md` |
 
 
