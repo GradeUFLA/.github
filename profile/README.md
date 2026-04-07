@@ -1,6 +1,5 @@
 # Trabalho Final de Engenharia de Software
 
-----
 ## 1. Identificação do projeto
 **Nome do projeto:** `GRADE UFLA`  
 **Problema escolhido:** `Simplificar o processo de escolha e organização de disciplinas na grade horária semestral dos alunos da UFLA`  
@@ -15,7 +14,6 @@
 - Jennifer Hellen Campos Silva -  Desenvolvedora Front-End <br>
 - José Vítor Machado de Oliveira - Product owner e Scrum Master <br>
 
-----
 
 ## 2. Objetivo do trabalho
 
