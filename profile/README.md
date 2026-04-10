@@ -50,7 +50,7 @@ O projeto seguirá os preceitos ágeis (Scrum), coordenado pelo Product Owner (P
 .
 ├── README.md
 ├── .github
-│   └── Github projects
+│   ├── Github projects
 │   │   ├── user-story.md
 │   │   └── sprint-task.md
 │   │    
