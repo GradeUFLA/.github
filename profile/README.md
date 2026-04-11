@@ -66,7 +66,7 @@ O projeto seguirá os preceitos ágeis (Scrum), coordenado pelo Product Owner (P
     │   ├── 09_entregas_incrementais.md
     │   └── 10_apresentacao_final.md
     ├── sprints
-    │   ├── [sprint_01.md](https://github.com/GradeUFLA/.github/blob/main/docs/sprints/sprint-01.md)
+    │   ├── sprint_01.md
     │   ├── sprint_02.md
     │   ├── sprint_03.md
     │   ├── sprint_04.md
