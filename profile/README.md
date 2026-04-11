@@ -11,7 +11,7 @@
 - Ana Clara Rocha Gomes -  Designer <br>
 - Bárbara Oliveira Fonseca - Desenvolvedora SQL <br>
 - Fernando Chaves Scarabeli -  Desenvolvedor Back-End <br>
-- Jennifer Hellen Campos Silva -  Desenvolvedora Front-End <br>
+- Jhennifer Hellen Campos Silva -  Desenvolvedora Front-End <br>
 - José Vítor Machado de Oliveira - Product owner e Scrum Master <br>
 
 ### [Protótipo](https://www.figma.com/design/nUXzaAtovngSzjsLQPadUO/GRADE-UFLA?node-id=0-1&t=92Dxv9XRBfhRPCjs-1)
