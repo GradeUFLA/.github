@@ -48,3 +48,9 @@ Esta sprint articula os conteúdos introdutórios de Engenharia de Software e Pr
 ## 11. Pendências para a próxima sprint 
 * Iniciar o levantamento e documentação dos Requisitos Funcionais e Não Funcionais .
 * Refinar as Histórias de Usuário .
+
+
+
+
+Reunião de planejamento da sprint 01:
+#5
