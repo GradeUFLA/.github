@@ -14,8 +14,8 @@
 - Jennifer Hellen Campos Silva -  Desenvolvedora Front-End <br>
 - José Vítor Machado de Oliveira - Product owner e Scrum Master <br>
 
-### Protótipo
-https://www.figma.com/design/nUXzaAtovngSzjsLQPadUO/GRADE-UFLA?node-id=0-1&t=92Dxv9XRBfhRPCjs-1
+### [Protótipo](https://www.figma.com/design/nUXzaAtovngSzjsLQPadUO/GRADE-UFLA?node-id=0-1&t=92Dxv9XRBfhRPCjs-1)
+
 ## 2. Objetivo do trabalho
 
 ### Identificação do problema escolhido
@@ -66,7 +66,7 @@ O projeto seguirá os preceitos ágeis (Scrum), coordenado pelo Product Owner (P
     │   ├── 09_entregas_incrementais.md
     │   └── 10_apresentacao_final.md
     ├── sprints
-    │   ├── sprint_01.md
+    │   ├── [sprint_01.md](https://github.com/GradeUFLA/.github/blob/main/docs/sprints/sprint-01.md)
     │   ├── sprint_02.md
     │   ├── sprint_03.md
     │   ├── sprint_04.md
@@ -97,7 +97,7 @@ O escopo inicial do sistema foi dividido em dois grandes blocos de funcionalidad
 
 | Entrega | Foco principal | Arquivo-base |
 |---|---|---|
-| Entrega 1 | Problema, visão do produto e organização do grupo | `docs/01_problema_e_visao_do_produto.md` e `docs/02_scrum_e_organizacao_do_grupo.md` |
+| Entrega 1 | Problema, visão do produto e organização do grupo | [`docs/01_problema_e_visao_do_produto.md`](https://github.com/GradeUFLA/.github/blob/main/docs/01_problema_e_visao_do_produto.md) e [`docs/02_scrum_e_organizacao_do_grupo.md` ](https://github.com/GradeUFLA/.github/blob/main/docs/02_scrum_e_organizacao_do_grupo.md)|
 | Entrega 2 | Backlog e requisitos | `docs/03_product_backlog.md` e `docs/04_requisitos.md` |
 | Entrega 3 | Modelagem e decisões de projeto | `docs/05_modelagem.md` |
 | Entrega 4 | Arquitetura e padrões | `docs/06_arquitetura_e_projeto.md` e `docs/07_padroes_de_projeto.md` |
