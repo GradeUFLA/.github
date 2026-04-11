@@ -50,5 +50,5 @@ Esta sprint articula os conteúdos introdutórios de Engenharia de Software e Pr
 * Refinar as Histórias de Usuário .
 
 
-## 12. [Registros da reunião da sprint 01](https://github.com/GradeUFLA/.github/issues/5)
+## 12. [Registros da reunião - sprint 01](https://github.com/GradeUFLA/.github/issues/5)
 
