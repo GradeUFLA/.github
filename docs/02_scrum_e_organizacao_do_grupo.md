@@ -9,8 +9,8 @@ Evidências: Todas as reuniões e decisões da equipe exigem documentação comp
 
 
 ### 2. Composição do grupo
-Ana Clara Rocha Gomes - Designer
-Bárbara Oliveira Fonseca - Desenvolvedora SQL
-Fernando Chaves Scarabeli - Desenvolvedor Back-End
-Jennifer Hellen Campos Silva - Desenvolvedora Front-End
+Ana Clara Rocha Gomes - Designer <br>
+Bárbara Oliveira Fonseca - Desenvolvedora SQL <br>
+Fernando Chaves Scarabeli - Desenvolvedor Back-End <br>
+Jennifer Hellen Campos Silva - Desenvolvedora Front-End <br>
 José Vítor Machado de Oliveira - Product owner e Scrum Master
