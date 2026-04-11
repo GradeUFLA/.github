@@ -1,4 +1,4 @@
-# Sprint 01
+# Sprint 01 - [Registros da Reunião](https://github.com/GradeUFLA/.github/issues/5)
 
 ## 1. Identificação 
 * **Número da sprint:** 01 
@@ -49,6 +49,4 @@ Esta sprint articula os conteúdos introdutórios de Engenharia de Software e Pr
 * Iniciar o levantamento e documentação dos Requisitos Funcionais e Não Funcionais .
 * Refinar as Histórias de Usuário .
 
-
-## 12. [Registros da reunião - sprint 01](https://github.com/GradeUFLA/.github/issues/5)
 
