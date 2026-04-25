@@ -28,9 +28,7 @@ Relaciona-se diretamente ao conteúdo de Requisitos, reforçando elicitação, o
 - Gestão Ágil: Product Backlog atualizado e priorizado no GitHub Projects , além deste documento de registro.
 
 ## 6. Evidencias no GitHub
-- Arquivos criados/atualizados:
-- Commits relevantes:
-- Tag da sprint:
+- Arquivos criados/atualizados: [Product Backlog](https://github.com/GradeUFLA/.github/blob/main/docs/03_product_backlog.md) ; [Requisitos](https://github.com/GradeUFLA/.github/blob/main/docs/04_requisitos.md) e [Sprint-02](https://github.com/GradeUFLA/.github/blob/main/docs/sprints/sprint-02.md)
 ## 7. Evolucao da aplicacao web
 ## 8. Dificuldades encontradas
 ## 9. Pendencias para a proxima sprint
