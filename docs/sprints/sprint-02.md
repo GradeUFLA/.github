@@ -70,7 +70,6 @@ Validação: O desenvolvedor Fernando assumirá a perspectiva de "Cliente" para 
 
 <img width="867" height="1156" alt="Image" src="https://github.com/user-attachments/assets/66235d05-4dc8-4476-940f-2c85c6316592" />
 
-<img width="1704" height="781" alt="Image" src="https://github.com/user-attachments/assets/ae778f5f-a7b2-4602-b9a4-25f727b1dc77" />
 
 
 ### Review
