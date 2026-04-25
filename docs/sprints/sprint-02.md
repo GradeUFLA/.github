@@ -30,5 +30,7 @@ Relaciona-se diretamente ao conteúdo de Requisitos, reforçando elicitação, o
 ## 6. Evidencias no GitHub
 - Arquivos criados/atualizados: [Product Backlog](https://github.com/GradeUFLA/.github/blob/main/docs/03_product_backlog.md) ; [Requisitos](https://github.com/GradeUFLA/.github/blob/main/docs/04_requisitos.md) e [Sprint-02](https://github.com/GradeUFLA/.github/blob/main/docs/sprints/sprint-02.md)
 ## 7. Evolucao da aplicacao web
+Nesta sprint, a aplicação web deixou de ser apenas um documento e passou a ser algo materializado estrutural e visualmente. A evolução principal ocorreu na definição da interface do usuário com os protótipos e no diagrama do banco de daods (MER/DER). Além disso, o software teve seu primeiro incremento real de código com a construção da seção inicial (Hero) no Front-end, estabelecendo a base do projeto para a codificação das próximas telas.
 ## 8. Dificuldades encontradas
+
 ## 9. Pendencias para a proxima sprint
