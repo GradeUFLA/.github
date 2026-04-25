@@ -3,6 +3,11 @@
 - Numero da sprint: 02
 - Periodo: 11/04/2026 - 25/04/2026
 - Data da entrega: 25/04/2026
+- Identificação de usuários ou partes interessadas;
+    - Estudantes da UFLA (Usuários Finais)
+    - Administradores do Sistema (Gestão)
+
+
 ## 2. Objetivo da sprint
 Banco de Dados: Modelar a estrutura de dados necessária para o sistema.
 
