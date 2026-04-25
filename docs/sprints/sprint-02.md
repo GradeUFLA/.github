@@ -1,5 +1,8 @@
-# Sprint 0X
-## 1. Identificacao- Numero da sprint:- Periodo:- Data da entrega:
+# Sprint 02
+## 1. Identificacao- 
+- Numero da sprint: 02
+- Periodo: 
+- Data da entrega:
 ## 2. Objetivo da sprint
 ## 3. Itens do Sprint Backlog--
 ## 4. Relacao com o conteudo da disciplina
