@@ -1,5 +1,5 @@
 # Sprint 02 - Registros de reuniões : [Planning](https://github.com/GradeUFLA/.github/issues/24) - [Review](https://github.com/GradeUFLA/.github/issues/23)
-## 1. Identificacao- 
+## 1. Identificacao
 - Numero da sprint: 02
 - Periodo: 11/04/2026 - 25/04/2026
 - Data da entrega: 25/04/2026
