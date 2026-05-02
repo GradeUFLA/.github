@@ -157,7 +157,6 @@ Uma vez que os dados são carregados, a interação principal (adicionar/remover
 
 ### Itens adicionados ao backlog
 * **[Infraestrutura]** Configurar o banco de dados PostgreSQL em ambiente de nuvem para acesso compartilhado da equipe.
-* **[Back-end]** Criar as Entidades JPA/Hibernate no Spring Boot espelhando exatamente as tabelas do MER aprovado (`curso`, `disciplina`, `turma`, `horario`, `admin`).
 * **[Back-end]** Implementar a configuração inicial do Spring Security para suportar a geração e validação de tokens JWT (base para os módulos administrativos).
 * **[Back-end]** Desenvolver e documentar o contrato da API (Swagger/OpenAPI) para os endpoints levantados no Diagrama de Sequência (ex: `GET /api/cursos` e `POST /api/grades/disponibilidade`).
 * **[Bot/Scraping]** Desenvolver uma Prova de Conceito (PoC) em Python para extrair dados de *uma* matriz curricular do SIG e inserir no banco PostgreSQL, validando o modelo de dados.
