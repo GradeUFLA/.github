@@ -39,6 +39,32 @@ Representar a solução por meio de modelos que auxiliem a compreensão do siste
 
 ---
 
+
+## 9. Exemplo de revisão da sprint
+
+### O que foi concluído
+- Modelagem dos principais fluxos do sistema.
+- Definição inicial da estrutura da aplicação web.
+- Identificação das entidades principais do domínio.
+- Refinamento de histórias de usuário do backlog.
+
+### Principais decisões tomadas
+- A solução será web com frontend e backend separados.
+- O sistema exigirá autenticação para ações de agendamento e administração.
+- O fluxo de agendamento será tratado como principal prioridade de implementação.
+
+### Dificuldades encontradas
+- Necessidade de detalhar melhor regras de disponibilidade.
+- Ajustes no escopo para manter viabilidade dentro do semestre.
+
+### Próximos passos
+- Implementar as primeiras funcionalidades do backlog priorizado.
+- Evoluir a arquitetura da solução.
+- Definir testes iniciais para o fluxo de agendamento.
+
+---
+
+
 ## 13. Observação importante aos alunos
 
 Em projetos de aplicação web, **não é obrigatório apresentar diagrama de classes orientado a objetos**. Serão aceitos modelos compatíveis com a solução proposta, como:
