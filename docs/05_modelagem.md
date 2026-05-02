@@ -42,37 +42,53 @@ Permitir a exportação da grade planejada em formato de imagem, ou vincular dir
 
 ---
 
-## 4. Eequisitos relacionados
+## 4. Requisitos relacionados
 
 ### Requisitos funcionais
 
-- **RF01:** O usuário deve poder criar uma conta.
-- **RF02:** O usuário deve poder realizar login.
-- **RF03:** O usuário deve poder visualizar serviços disponíveis.
-- **RF04:** O usuário deve poder consultar horários disponíveis.
-- **RF05:** O usuário deve poder realizar agendamentos.
-- **RF06:** O usuário deve poder cancelar agendamentos.
-- **RF07:** O administrador deve poder gerenciar serviços.
-- **RF08:** O administrador deve poder gerenciar horários disponíveis.
+Relacionados à Interação do Estudante (Casos de Uso e Sequência):
+
+- RF02: O sistema deve guiar o estudante por um fluxo de 3 etapas sequenciais: seleção de curso, matriz curricular e semestre .
+- RF06 / RF07: O sistema deve exibir matérias anteriores concluídas e permitir desmarcá-las .   
+- RF12: O sistema deve permitir que o estudante adicione matérias para o calendário semanal.  
+- RF13: O sistema deve detectar e sinalizar conflitos de horário ao posicionar uma matéria na grade. 
+- RF17 / RF18: O sistema deve permitir exportar imagem da grade montada ou para o Google Agenda .
+
+Relacionados à Gestão e Banco de Dados (Casos de Uso, Componentes e MER):
+
+- RF22: O sistema deve exigir autenticação via e-mail e senha para acesso ao painel administrativo.  
+- RF28: O sistema deve exibir na tela de Analytics métricas de uso.   
+- RF31: O sistema deve permitir ao administrador criar, editar e deletar matérias, cursos e horários manualmente. 
+- RF35: O sistema deve permitir ao administrador acionar manualmente a execução dos bots de scraping.
+- RF37: O sistema deve registrar todas as ações administrativas no feed de atividades.
 
 ### Requisitos não funcionais
 
-- **RNF01:** O sistema deve estar acessível via navegador web.
-- **RNF02:** O sistema deve exigir autenticação para ações restritas.
-- **RNF03:** O sistema deve persistir os dados de usuários, serviços e agendamentos.
+- RNF04: O fluxo de montagem de grade deve ser concluível sem necessidade de cadastro ou login pelo estudante .  
+- RNF05: O painel administrativo deve ser protegido por autenticação JWT. .  
+- RNF10: O backend deve seguir arquitetura RESTful.  
+- RNF12: Os dados de matérias, cursos e horários devem ser sincronizados com o SIG via bots de scraping.
 
 ---
 
 ## 5. Vínculo entre requisitos e modelos
 
 | Requisito | Modelo relacionado | Justificativa |
-|---|---|---|
-| RF01 – Criar conta | Casos de Uso / Modelo de Dados | Representa cadastro e persistência do usuário |
-| RF02 – Login | Casos de Uso / Componentes | Mostra autenticação e interação entre frontend e backend |
-| RF03 – Visualizar serviços | Casos de Uso / Modelo de Dados | Relaciona consulta ao catálogo de serviços |
-| RF04 – Consultar horários | Casos de Uso / Modelo de Dados / Sequência | Relaciona disponibilidade e fluxo da aplicação |
-| RF05 – Realizar agendamento | Casos de Uso / Sequência / Modelo de Dados | Representa o principal fluxo de negócio |
-| RF07 – Gerenciar serviços | Casos de Uso / Modelo de Dados | Representa manutenção administrativa |
+| :--- | :--- | :--- |
+| **RF01 – Visualizar grades filtradas** | Casos de Uso / Protótipo / Modelo de Dados | Mostra a interação do estudante com a interface visual e a estrutura relacional de busca no banco. |
+| **RF02 – Montar horário interativo** | Casos de Uso / Sequência / Protótipo | Representa o fluxo principal do aluno, detalhado passo a passo no diagrama de sequência. |
+| **RF03 – Exportar horário (PDF/Imagem)** | Casos de Uso / Protótipo | Ação de entrega de valor final do ator Estudante, tangibilizada nas telas do Figma. |
+| **RF04 – Acesso público sem login** | Casos de Uso / Componentes | Evidencia que o ator "Estudante" não possui ligação com a API de Autenticação. |
+| **RF05 – Autenticação para administradores** | Casos de Uso / Componentes / Modelo de Dados | Mostra a segurança via API REST (Backend) e a tabela `admin` no banco de dados. |
+| **RF06 – CRUD Administrativo** | Casos de Uso / Modelo de Dados | Representa as ações de manutenção do PO/Admin e define as entidades que podem ser alteradas (Cursos, Turmas). |
+| **RF07 – Painel de Analytics e Logs** | Casos de Uso / Modelo de Dados | Representado pela ação de visualização gerencial e estruturado nas tabelas de `log` do sistema. |
+| **RF08 – Acionar bot de scraping manual** | Casos de Uso / Componentes | Ilustra a arquitetura de automação isolada (Python) e a interação do Admin com esse serviço. |
+| **RNF01 – API Backend (Java/Spring)** | Componentes | Evidencia o isolamento das rotas de negócio em um servidor de aplicação dedicado. |
+| **RNF02 – Banco PostgreSQL** | Modelo de Dados / Componentes | Base tecnológica que fundamentou a criação do Modelo Entidade-Relacionamento (MER). |
+| **RNF03 – Automação de extração (Python)** | Componentes | Mostra o bot como um serviço apartado que insere dados diretamente no banco, sem sobrecarregar a API. |
+| **RNF04 – Interface Mobile-First / IHC** | Protótipo de Interface | Justifica o design adotado nas telas de alta fidelidade para garantir baixa carga cognitiva. |
+| **RNF05 – Deploy Desacoplado** | Componentes | O diagrama estrutural confirma a separação do Frontend (Netlify) e Backend (Koyeb). |
+
 
 ---
 
@@ -87,7 +103,7 @@ Permitir a exportação da grade planejada em formato de imagem, ou vincular dir
 ### 6.2. Diagrama de Componentes
 
 
-![Diagrama de Componentes]()
+![Diagrama de Componentes](https://github.com/user-attachments/assets/faf0d385-fe1a-41db-9193-0e0cafd585d4)
 
 ### 6.3. Modelo de Dados
 
@@ -103,36 +119,48 @@ Permitir a exportação da grade planejada em formato de imagem, ou vincular dir
 ## 7. Descrição textual complementar dos modelos
 
 ### 7.1. Casos de uso
-O diagrama de casos de uso apresenta os dois principais perfis do sistema: usuário e administrador. Ele mostra as funcionalidades centrais oferecidas pela aplicação e evidencia que algumas operações dependem de autenticação.
+
+Os diagramas de casos de uso evidenciam dois atores do sistema:
+
+Estudante: Focado no consumo da plataforma. Suas ações refletem o fluxo de montagem do horário, desde a configuração inicial (seleção de curso/matriz) até a interação com a grade (visualização de conflitos, montagem) e a exportação do resultado (Google Agenda ou imagem). **Não há necessidade de login para este ator.**
+
+Administrador: Focado na gestão e manutenção do sistema. Suas ações exigem autenticação prévia e englobam o CRUD completo de dados acadêmicos (cursos, disciplinas, horários), a visualização de métricas (dashboard, analytics e logs) e o acionamento manual do bot de scraping.
 
 ### 7.2. Componentes
-O diagrama de componentes representa a estrutura geral da aplicação web, separando frontend, backend, serviços internos e banco de dados. Esse modelo ajuda a justificar decisões arquiteturais iniciais.
+O diagrama de componentes ilustra a arquitetura física e lógica da aplicação:
+
+Frontend Web (React): Interface do usuário dividida em módulos para o Estudante e para o Administrador, rodando no navegador.
+
+Backend API (Spring Boot): Servidor centralizado que expõe rotas REST, processa regras de negócio e gerencia autenticação.
+
+Servidor de Automação (Python): Componente independente acionado via Cron ou trigger manual, responsável por fazer o web scraping no SIG da UFLA e atualizar os dados ativamente.
+
+Banco de Dados (PostgreSQL): Centraliza as informações consumidas pela API e alimentadas pelo script Python.
 
 ### 7.3. Modelo de dados
-O modelo de dados mostra as entidades centrais do domínio e seus relacionamentos, servindo como apoio para a implementação do banco de dados e para a compreensão das regras de negócio.
+O Modelo Entidade-Relacionamento detalha a estrutura relacional do banco de dados.
+
+Dados Acadêmicos: A separação entre as entidades curso, disciplina, turma e horario garante que os dados estáticos (matérias) não entrem em conflito com os dados dinâmicos (turmas e vagas oferecidas em cada semestre). O modelo também prevê tabelas associativas para lidar com pré-requisitos e matrizes curriculares (disciplina_curso).
+
+Gestão: As tabelas admin e log garantem a segurança do painel administrativo, registrando quem acessou e quais alterações manuais ou via bot foram realizadas no banco.
 
 ### 7.4. Sequência
-O diagrama de sequência detalha o fluxo de realização de agendamento, mostrando como o usuário interage com a interface e como a solicitação percorre backend e banco de dados.
+O diagrama de sequência detalha o fluxo principal de negócio do sistema: a Montagem da Grade pelo Estudante.
+
+O fluxo demonstra uma otimização clara de performance e usabilidade. As requisições ao Backend são feitas nas etapas iniciais de configuração (Stepper e Matérias Concluídas) para buscar a carga de dados completa (payload).
+
+Uma vez que os dados são carregados, a interação principal (adicionar/remover disciplinas, calcular créditos e detectar conflitos visuais) ocorre localmente no Frontend. Isso evita requisições excessivas ao servidor a cada clique, garantindo uma resposta em tempo real (baixa latência) para o aluno durante a simulação.
 
 ---
 
 ## 8. Refinamento do backlog após a modelagem
 
-### Antes do refinamento
-- Como usuário, quero agendar atendimento.
-
-### Após o refinamento
-- Como usuário, quero visualizar horários disponíveis para escolher um atendimento.
-- Como usuário, quero confirmar um agendamento online.
-- Como sistema, devo impedir agendamentos em horários já ocupados.
-- Como administrador, quero cadastrar novos serviços com duração definida.
-
-### Exemplo de itens adicionados ao backlog
-- Criar tela de listagem de serviços.
-- Implementar endpoint de consulta de horários.
-- Modelar tabela de agendamentos.
-- Implementar regra de validação de conflito de horários.
-- Criar tela “Meus agendamentos”.
+### Itens adicionados ao backlog
+* **[Infraestrutura]** Configurar o banco de dados PostgreSQL em ambiente de nuvem para acesso compartilhado da equipe.
+* **[Back-end]** Criar as Entidades JPA/Hibernate no Spring Boot espelhando exatamente as tabelas do MER aprovado (`curso`, `disciplina`, `turma`, `horario`, `admin`).
+* **[Back-end]** Implementar a configuração inicial do Spring Security para suportar a geração e validação de tokens JWT (base para os módulos administrativos).
+* **[Back-end]** Desenvolver e documentar o contrato da API (Swagger/OpenAPI) para os endpoints levantados no Diagrama de Sequência (ex: `GET /api/cursos` e `POST /api/grades/disponibilidade`).
+* **[Bot/Scraping]** Desenvolver uma Prova de Conceito (PoC) em Python para extrair dados de *uma* matriz curricular do SIG e inserir no banco PostgreSQL, validando o modelo de dados.
 
 ---
 
