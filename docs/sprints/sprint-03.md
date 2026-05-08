@@ -40,4 +40,6 @@ Sprint Backlog --> Finalização em 08/05/2026
 | Sim | Texto explicativo relacionando os modelos aos requisitos levantados #58 | - | Concluído |
 | Sim | Atualização do backlog com refinamentos identificados durante a modelagem #59 | - |  A Fazer |
 
+Melhorias:
 
+O scrum master implementou ISSUE_TAMPLATE para maior padronização das issues do sistema (Bug-report.md, sprint-task.md, user-story.md)
