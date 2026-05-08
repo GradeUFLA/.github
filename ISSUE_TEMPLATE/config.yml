@@ -2,5 +2,5 @@ blank_issues_enabled: true
 
 contact_links:
   - name: Documentação do Projeto
-    url: https://github.com/miguelcoelho22/PEGUFLA
+    url: https://github.com/GradeUFLA
     about: Consulte os documentos do projeto antes de abrir uma issue.
