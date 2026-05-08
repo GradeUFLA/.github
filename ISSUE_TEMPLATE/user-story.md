@@ -9,14 +9,19 @@ assignees: []
 ## História de usuário
 Como [usuário], quero [funcionalidade], para [benefício].
 
-## Checklist
-- [ ] Implementar funcionalidade
-- [ ] Testar funcionamento
-- [ ] Atualizar documentação
-
 ## Critérios de aceitação
 - [ ] Critério 1
 - [ ] Critério 2
+
+## Tarefas Técnicas (Sub-tasks)
+*Checklist prático de implementação (Front-end, Back-end, Banco, Design).*
+
+- [ ] `[Design]` 
+- [ ] `[Front-end]` 
+- [ ] `[Back-end]` 
+- [ ] `[Banco de Dados]` 
+
+---
 
 ## Observações
 Detalhes adicionais (opcional).
