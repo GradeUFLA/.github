@@ -1,4 +1,3 @@
----
 name: Relato de Erro (Bug Report)
 about: Template padrão para relatar um erro ou comportamento inesperado no sistema.
 title: '[Bug] - '
