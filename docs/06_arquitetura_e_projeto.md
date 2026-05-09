@@ -14,7 +14,7 @@
 |---|---|
 | **Apresentação (Frontend)** | Interface do usuário em React (SPA). Responsável pela renderização do calendário, lógica visual de "drag-and-drop", validações de conflito em tempo real (lado do cliente) e consumo da API. |
 | **Aplicação (Backend API)** | Servidor Spring Boot que atua como API REST. Gerencia a autenticação administrativa (JWT), orquestra as requisições do frontend e aplica as regras de negócio centrais de segurança. |
-| **Automação (Bot Scraping)** | Script Python isolado responsável por acessar o SIG da UFLA, extrair os dados acadêmicos mais recentes (cursos, turmas, horários) e injetá-los diretamente no banco. |
+| **Automação (Bot Scraping)** | Script Python isolado responsável por acessar o SIG da UFLA, extrair os dados acadêmicos mais recentes (cursos, turmas, horários) e injetá-los no banco de dados. |
 | **Persistência (Banco)** | Banco de dados relacional PostgreSQL, responsável por armazenar as entidades acadêmicas de forma normalizada, credenciais de administradores e logs do sistema. |
 
 ---
@@ -33,7 +33,7 @@
 |---|---|---|
 | **React (JS/TS)** | Interface Web (SPA) | Excelente ecossistema para interfaces reativas, componentização e gerenciamento de estado complexo (necessário para a montagem de grade interativa). |
 | **Java (Spring Boot)** | API Backend | Framework robusto, escalável, com suporte nativo para criação de APIs RESTful, segurança (Spring Security) e mapeamento objeto-relacional (Hibernate). |
-| **Python** | Bot de Extração (Scraping) | Melhor ecossistema do mercado para extração e manipulação de dados web (ex: BeautifulSoup, Selenium, Pandas). |
+| **Python** | Bot de Extração (Scraping) | Melhor ecossistema do mercado para extração e manipulação de dados web. |
 | **PostgreSQL** | Banco de Dados | Banco relacional sólido, ideal para garantir a integridade referencial dos dados acadêmicos (Cursos 1:N Disciplinas N:M Turmas). |
 
 ---
