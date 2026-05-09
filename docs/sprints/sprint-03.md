@@ -85,5 +85,3 @@ Além de carregar as tarefas listadas como "Em desenvolvimento" e "A Fazer" do b
 [Bot/Scraping] Desenvolver a Prova de Conceito (PoC) em Python para extrair dados de uma matriz do SIG.
 
 
-Registros das reuniões:
-
