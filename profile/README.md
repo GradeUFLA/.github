@@ -9,7 +9,7 @@
 
 ### Composição do grupo
 - Ana Clara Rocha Gomes -  Designer <br>
-- Bárbara Oliveira Fonseca - Desenvolvedora SQL <br>
+- Bárbara Oliveira Fonseca - Desenvolvedora Python e SQL <br>
 - Fernando Chaves Scarabeli -  Desenvolvedor Back-End <br>
 - Jhennifer Hellen Campos Silva -  Desenvolvedora Front-End <br>
 - José Vítor Machado de Oliveira - Product owner e Scrum Master <br>
