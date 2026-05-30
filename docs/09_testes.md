@@ -45,12 +45,10 @@ Para os fluxos mais visuais e complexos (como arrastar as disciplinas), faremos 
 
 ## 5. Registro de defeitos
 
-| ID | Defeito | Severidade | Status | Ação tomada |
-
-|---|---|---|---|---|
-
 ----------->>>> EXEMPLOOOOOO <<<<<----------------------
 
+| ID | Defeito | Severidade | Status | Ação tomada |
+|---|---|---|---|---|
 | **BUG01** | Bot de Scraping abre janela gráfica do navegador (consumindo muita RAM do servidor) durante a extração. | Média | Corrigido | Configuração do Selenium/Script Python alterada para o modo *headless* (sem interface visual). |
 
 ---
