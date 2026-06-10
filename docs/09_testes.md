@@ -1,4 +1,4 @@
-# 08. Testes
+# 09. Testes
 
 ## 1. Estratégia de Testes
 A nossa estratégia para o **gradeUFLA** é mais simples e focada no aluno que vai utilizar: queremos ter a certeza de que as três partes do nosso sistema conversam perfeitamente (Front-end, Back-end e Bot-scraping). Vamos testar a interface em React (para garantir que a montagem do horário seja fluida e intuitiva), a API em Spring Boot (para garantir a segurança e as regras de negócio) e o Bot em Python (para confirmar que os dados do SIG são extraídos sem falhas).
