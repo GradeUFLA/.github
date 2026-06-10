@@ -12,33 +12,33 @@ Concluir as integrações pendentes entre o Front-end e o Back-end (telas de log
 
 | Demanda (Task) | Responsável | Área | Situação |
 | :--- | :--- | :---: | :--- |
-| Exportar a grade para o Google Agenda #30 | Fernando | Back-End | 🟢 Concluído |
-| Front-end: Tela de Montagem de grade #36 | Jhennifer | Front-End | 🟡 Em andamento |
-| Front-end: Login de Usuário - Admin #39 | Jhennifer | Front-End | 🔴 A fazer |
-| Back-end: Tela de Dashboard - admin #43 | Fernando | Back-End | 🟢 Concluído |
-| Back-end: Tela de analytics - admin #46 | Fernando | Back-End | 🔴 A fazer |
-| Back-end: Tela de dados - admin #49 | Fernando | Back-End | 🟢 Concluído |
-| Exportar a grade em .jpg #51 | Jhennifer | Front-End | 🔴 A fazer |
-| Desenvolver uma PoC em Python para extrair dados... #64 | Bárbara | scraping-bot | 🔴 A fazer |
-| Banco de dados: Validar relação entre tabelas disciplina e matriz... #65 | Bárbara | Banco de Dados | 🔴 A fazer |
-| Integração: tela de login #66 | Jhennifer | Front-End | 🔴 A fazer |
-| Integração: Stepper e tela de matérias concluídas #67 | Jhennifer | Front-End | 🔴 A fazer |
-| Integração: tela montagem de grade #68 | Jhennifer | Front-End | 🔴 A fazer |
-| Banco de dados: Validar as consultas (queries) para otimização... #69 | Bárbara | Banco de Dados | 🔴 A fazer |
-| Banco de dados: Escrever consultas otimizadas nas tabelas... #70 | Bárbara | Banco de Dados | 🔴 A fazer |
+| Exportar a grade para o Google Agenda #30 | Fernando | Back-End | Concluído |
+| Front-end: Tela de Montagem de grade #36 | Jhennifer | Front-End | Em andamento |
+| Front-end: Login de Usuário - Admin #39 | Jhennifer | Front-End | A fazer |
+| Back-end: Tela de Dashboard - admin #43 | Fernando | Back-End | Concluído |
+| Back-end: Tela de analytics - admin #46 | Fernando | Back-End | A fazer |
+| Back-end: Tela de dados - admin #49 | Fernando | Back-End | Concluído |
+| Exportar a grade em .jpg #51 | Jhennifer | Front-End | A fazer |
+| Desenvolver uma PoC em Python para extrair dados... #64 | Bárbara | scraping-bot | A fazer |
+| Banco de dados: Validar relação entre tabelas disciplina e matriz... #65 | Bárbara | Banco de Dados | A fazer |
+| Integração: tela de login #66 | Jhennifer | Front-End | A fazer |
+| Integração: Stepper e tela de matérias concluídas #67 | Jhennifer | Front-End | A fazer |
+| Integração: tela montagem de grade #68 | Jhennifer | Front-End | A fazer |
+| Banco de dados: Validar as consultas (queries) para otimização... #69 | Bárbara | Banco de Dados | A fazer |
+| Banco de dados: Escrever consultas otimizadas nas tabelas... #70 | Bárbara | Banco de Dados | A fazer |
 | Mapeamento de cursos no SIG #78 | Bárbara | scraping-bot | 🟢 Concluído |
 | Extração de matrizes curriculares #79 | Bárbara | scraping-bot | 🟢 Concluído |
 | Extração de disciplinas e relacionamento com matriz curricular #80 | Bárbara | scraping-bot | 🟢 Concluído |
-| Extração de pré-requisitos #81 | Bárbara | scraping-bot | 🔴 A fazer |
-| Extração de turmas #82 | Bárbara | scraping-bot | 🔴 A fazer |
+| Extração de pré-requisitos #81 | Bárbara | scraping-bot | A fazer |
+| Extração de turmas #82 | Bárbara | scraping-bot | A fazer |
 | Extração de horários #83 | Bárbara | scraping-bot | 🔴 A fazer |
-| Back-end: Criar endpoint que aciona o script Python... #85 | Fernando | Back-End | 🔴 A fazer |
-| Atualização dos modelos ou diagramas #89 | Não atribuído | Documentação | 🔴 A fazer |
+| Back-end: Criar endpoint que aciona o script Python... #85 | Fernando | Back-End | A fazer |
+| Atualização dos modelos ou diagramas #89 | Não atribuído | Documentação | A fazer |
 | Melhorias no design baseadas nos comentários #91 | Clara | Design | 🔴 A fazer |
 | Pop-up compartilhar grade #92 | Clara | Design | 🔴 A fazer |
 
 ## 4. Relação com o conteúdo da disciplina
-Nesta sprint, aprofundamos a **Integração de Sistemas**, **Validação e Teste de Software** e **Arquitetura de Software**. Evidenciamos isso ao realizar uma análise de viabilidade técnica (custo vs. performance) que resultou na mudança arquitetural do *bot de scraping*, desacoplando-o do servidor principal para otimizar os recursos do sistema.
+Nesta sprint, aprofundamos a **Integração de Sistemas**, **Validação e Teste de Software** e **Arquitetura de Software**. Evidenciamos isso ao realizar uma análise de viabilidade técnica (custo vs. performance) que resultou na mudança arquitetural do *bot de scraping*, desacoplando-o do servidor principal para otimizar os recursos do sistema. Agora o bot será uma funcionalidade a parte, sendo rodado localmente para alimentação do banco de dados
 
 ## 5. Artefatos produzidos
 - Relatórios de Validação e Testes no Banco de Dados (comprovando a ingestão de cursos, matrizes e disciplinas via bot).
