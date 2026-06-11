@@ -48,8 +48,10 @@ Nesta sprint, aprofundamos a **Integração de Sistemas**, **Validação e Teste
 - Documentação do Plano de Testes.
 
 ## 6. Evidências no GitHub
-- **Arquivos criados/atualizados:** `[Inserir link para os relatórios de DB e PDFs]`
-- **Commits relevantes:** `[Inserir hash e link dos commits de Back-end e Bot]`
+<img width="1330" height="933" alt="image" src="https://github.com/user-attachments/assets/61cfc4a8-45ae-42a8-8a3d-7486aaa1b8f8" />
+<img width="1330" height="933" alt="image" src="https://github.com/user-attachments/assets/794fc156-0406-4247-9041-83ec01f38506" />
+<img width="1330" height="350" alt="image" src="https://github.com/user-attachments/assets/59080a6a-134e-4126-8c2f-fd59c87e36be" />
+<img width="1310" height="447" alt="image" src="https://github.com/user-attachments/assets/0617c9c1-e050-4cce-b20d-0de0cf98f14e" />
 
 ## 7. Evolução da aplicação web
 O sistema evoluiu e arquiteturalmente. O Back-end consolidou as rotas administrativas (Analytcs e Dados) e a integração com o Google Agenda. Em paralelo, o *bot* conseguiu extrair e mapear o todo o esqueleto para criação da grade (Cursos, Matrizes e Disciplinas). Devido a uma decisão estratégica de arquitetura, a aplicação passará por uma alteração no seu fluxo de atualização de dados, trocando a execução em tempo real do *bot* no servidor por um sistema de processamento local e manual.
