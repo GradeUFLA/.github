@@ -1,24 +1,24 @@
 # 09. Testes
 
 ## 1. Estratégia de Testes
-A nossa estratégia para o **gradeUFLA** é focada no utilizador: queremos ter a certeza de que as três partes do nosso sistema conversam perfeitamente (Front-end, Back-end e Bot-scraping). Vamos testar a interface em React (para garantir que a montagem do horário seja fluida e intuitiva), a API em Spring Boot (para garantir a segurança e as regras de negócio) e o Bot em Python (para confirmar que os dados do SIG são extraídos sem falhas).
+A nossa estratégia para o **gradeUFLA** é focada no utilizador: queremos ter a certeza de que as duas partes do nosso sistema conversam perfeitamente (Front-end, Back-end) e que o Bot-scraping consiga extrair todas as grades corretamente. Vamos testar a interface em React (para garantir que a montagem do horário seja fluida e intuitiva), a API em Spring Boot (para garantir a segurança e as regras de negócio) e o Bot em Python (para confirmar que os dados do SIG são extraídos sem falhas).
 
 Para os fluxos mais visuais e complexos (como arrastar as disciplinas), faremos testes manuais. Para a segurança das rotas e integridade da base de dados, faremos validação mais técnica.
 
 ### Objetivos:
 - Garantir que cumprimos tudo o que prometemos nos requisitos (ex: não permitir choques de horário e manter a área de administração segura);
-- Descobrir e corrigir problemas de usabilidade, especialmente atrasos ou falhas ao arrastar as disciplinas para a grelha;
+- Descobrir e corrigir problemas de usabilidade, especialmente atrasos ou falhas ao arrastar as disciplinas para a grade;
 - Ter a certeza de que o Bot de extração, a API e a base de dados comunicam sem perder nenhuma informação pelo caminho;
 - Assegurar que entregamos um produto estável e agradável antes de o lançarmos para os estudantes.
 
 ---
 
 ## 2. Tipos de Teste Previstos
-| Tipo de Teste | O que queremos descobrir? | Como vamos provar que testámos? |
+| Tipo de Teste | O que queremos descobrir? | Como vamos provar que testamos? |
 |---|---|---|
-| **Teste Funcional** | As funcionalidades principais (montar a grelha, exportar imagem, gerir disciplinas de modo geral) fazem exatamente o que devem? | Casos de teste documentados com capturas de ecrã (sucesso e falha). |
-| **Teste de Interface (UI/UX)** | A experiência é agradável? Funciona bem no telemóvel? Os avisos e os ecrãs de carregamento são claros? | Prints (Mobile e Desktop) e notas de usabilidade. |
-| **Teste de Integração** | O Front-end, o Back-end e a base de dados estão a funcionar corretamente? | Registos de pedidos de rede com status `200 OK` ou `201 Created` |
+| **Teste Funcional** | As funcionalidades principais (montar a grade, exportar imagem, gerir disciplinas de modo geral) fazem exatamente o que devem? | Casos de teste documentados com capturas de tela (sucesso e falha). |
+| **Teste de Interface (UI/UX)** | A experiência é agradável? Funciona bem no telemóvel? Os avisos e as telas de carregamento são claros? | Prints (Mobile e Desktop) e notas de usabilidade. |
+| **Teste de Integração** | O Front-end, o Back-end e a base de dados estão funcionando corretamente? | Registos de pedidos de rede com status `200 OK` ou `201 Created` |
 | **Teste Exploratório** | O que acontece se o utilizador fizer algo inesperado ("caminho infeliz")? | Relato de problemas e registo de *bugs* no GitHub. |
 
 ---
@@ -26,20 +26,19 @@ Para os fluxos mais visuais e complexos (como arrastar as disciplinas), faremos 
 ## 3. Casos de Teste e Rastreabilidade
 | ID | Requisito | O Cenário | O que o utilizador faz | O que o sistema tem de fazer | O que aconteceu na realidade |
 |---|---|---|---|---|---|
-| **CT01** | RF09/RF10 (US04) | Montagem de horário com choque. | O estudante tenta colocar "Cálculo II" num horário onde já tem "Física I". | O sistema percebe o erro, impede a ação e mostra um aviso. | **Sucesso.** O sistema detetou o conflito, exibiu aviso visual e a disciplina não foi adicionada à grelha. |
-| **CT02** | RF22 (US06) | Login correto do Administrador. | Insere o E-mail e a Senha válidos na página de entrada. | Entra diretamente no Painel de Controlo e guarda a chave de segurança (JWT). | **Sucesso.** O utilizador foi redirecionado para a dashboard e o token JWT foi armazenado corretamente. |
-| **CT03** | RF17/RF18 (US10) | Guardar a grelha como imagem. | Clica em "Exportar como .jpg" depois de ter o horário pronto. | A imagem da grelha é descarregada para o computador/telemóvel. | **Sucesso.** Ficheiro descarregado como `grade_UFLA_[timestamp].png` com as cores distintas e tamanho inferior a 2MB. |
-| **CT04** | RF35 (US11) | Acionar o Bot manualmente. | O administrador clica em "Executar Bot" na área de Dados. | O ecrã avisa que está "A executar..." e, no fim, dá um pequeno resumo do que atualizou. | **Sucesso.** O endpoint retornou HTTP 202 com status "RODANDO" e a mensagem de início de processamento. |
+| **CT01** | RF09/RF10 (US04) | Montagem de horário com choque. | O estudante tenta colocar "Cálculo II" num horário onde já tem "Física I". | O sistema percebe o erro, impede a ação e mostra um aviso. | **Sucesso.** O sistema detetou o conflito, exibiu aviso visual e a disciplina não foi adicionada à grade. |
+| **CT02** | RF22 (US06) | Login correto do Administrador. | Insere o E-mail e a Senha válidos na página de entrada. | Entra diretamente no Painel de administração e guarda a chave de segurança (JWT). | **Sucesso.** O utilizador foi redirecionado para a dashboard e o token JWT foi armazenado corretamente. |
+| **CT03** | RF17/RF18 (US10) | Guardar a grade como imagem. | Clica em "Exportar como .jpg" depois de ter o horário pronto. | A imagem da grade é baixada para o computador ou celular. | **Sucesso.** Arquivo baixado. |
 | **CT05** | RF06/RF07 (US03) | Desmarcar uma disciplina concluída. | Retira o visto da disciplina "Introdução à Programação" no guia de passos. | A disciplina volta imediatamente para a lista lateral, disponível para ser cursada. | **Sucesso.** A checkbox foi desmarcada imediatamente e a matéria retornou para a sidebar de escolhas. |
-| **CT06** | RF31 (US09) | Apagar um curso em uso. | O administrador tenta apagar um curso que ainda tem várias turmas associadas. | O sistema não deixa apagar e explica o porquê de forma clara, sem prejudicar a base de dados. | **Sucesso.** O sistema bloqueou a exclusão e retornou um erro HTTP 409 (Business rule conflict), exibindo um aviso a informar sobre as 47 matérias vinculadas. |
+| **CT06** | RF31 (US09) | Apagar um curso em uso. | O administrador tenta apagar um curso que ainda tem várias turmas associadas. | O sistema não deixa apagar e explica o porquê de forma clara, sem prejudicar a base de dados. | **Sucesso.** O sistema bloqueou a exclusão e retornou um erro HTTP 409, exibindo um aviso a informar sobre as 47 matérias vinculadas. |
 
 ---
 
 ## 4. Critérios de Aceitação dos Testes
 - Os testes têm de fazer sentido e validar diretamente os requisitos que definimos no início do projeto;
-- As funcionalidades principais (montar a grelha e extrair os dados) têm de ter provas visuais de que funcionam corretamente;
-- A responsividade é obrigatória: testar se a grelha de horários não fica "cortada" nos ecrãs mais pequenos dos telemóveis;
-- Qualquer falha ou comportamento estranho deve ser logo registado como *Issue* no nosso GitHub, com o seu grau de urgência bem definido.
+- As funcionalidades principais (montar a grade e extrair os dados) têm de ter provas visuais de que funcionam corretamente;
+- A responsividade é obrigatória: testar se a grade de horários não fica "cortada" nos telas mais pequenos dos celulares;
+- Qualquer falha ou comportamento estranho deve ser logo registado como *BUG* no GitHub, com o seu grau de urgência bem definido.
 
 ---
 
