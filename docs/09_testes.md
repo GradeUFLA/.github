@@ -54,19 +54,27 @@ Para os fluxos mais visuais e complexos (como arrastar as disciplinas), faremos 
 
 ## 6. Evidências
 
-- **Capturas de ecrã:**
-  - Ecrãs iniciais (Desktop e Mobile) e interface do Stepper demonstrando o pleno funcionamento visual da aplicação Web.
-  - [GradeUFLA_Casos_Teste-1.pdf](https://github.com/user-attachments/files/28841061/GradeUFLA_Casos_Teste-1.pdf)
-[Testes e Validações no Banco de Dados.pdf](https://github.com/user-attachments/files/28841057/Testes.e.Validacoes.no.Banco.de.Dados.pdf)
+- **Capturas de Tela:**
+  - Telas iniciais (Desktop e Mobile) e interface do Stepper demonstrando o pleno funcionamento visual da aplicação Web.
+ 
 <img width="1600" height="915" alt="WhatsApp Image 2026-06-03 at 23 31 32" src="https://github.com/user-attachments/assets/ab40359b-4663-40e0-b222-1d6e4113755a" />
 <img width="1600" height="852" alt="WhatsApp Image 2026-06-03 at 23 31 32(1)" src="https://github.com/user-attachments/assets/10548497-55a6-441c-a9c0-26fc8387b646" />
 <img width="1600" height="846" alt="WhatsApp Image 2026-06-03 at 23 31 32(2)" src="https://github.com/user-attachments/assets/c852e22b-5c18-403b-a73c-c0ac66854557" />
-<img width="1600" height="835" alt="WhatsApp Image 2026-06-03 at 23 34 41" src="https://github.com/user-attachments/assets/c334da7d-b464-4938-97a1-5497ef544fee" />
 
   - Separador "Network" capturado provando que a rota `GET /api/v1/public/cursos` retorna status `200 OK` na versão Desktop e identificando o erro de conexão local na visualização mobile.
+
+
+  <img width="1600" height="835" alt="WhatsApp Image 2026-06-03 at 23 34 41" src="https://github.com/user-attachments/assets/c334da7d-b464-4938-97a1-5497ef544fee" />
+  
 - **Relatórios simples de validação:**
+
   - Relatório de validação da base de dados anexado (*Testes e Validações no Banco de Dados.pdf*), confirmando o sucesso do Bot ao inserir de forma estruturada: 56.938 horários, 35.511 pré-requisitos e 3.972 disciplinas com 0 turmas órfãs.
+  
+[Testes e Validações no Banco de Dados.pdf](https://github.com/user-attachments/files/28841057/Testes.e.Validacoes.no.Banco.de.Dados.pdf)
+
   - Documento com resultados de rotas HTTP do Back-end (*GradeUFLA_Casos_Teste-1.pdf*), a mostrar o funcionamento das travas de segurança (ex: Erro 409 ao tentar apagar um curso preenchido).
+
+[GradeUFLA_Casos_Teste-1.pdf](https://github.com/user-attachments/files/28841061/GradeUFLA_Casos_Teste-1.pdf)
 
 ---
 
