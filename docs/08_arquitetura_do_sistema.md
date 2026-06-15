@@ -1,5 +1,4 @@
-# Arquitetura do Sistema (Sprint 6)
-
+# Arquitetura do Sistema
 ## 1. Visão Arquitetural e Organização Estrutural
 
 A arquitetura do **gradeUFLA** baseia-se no estilo **Cliente-Servidor (Client-Server)** distribuído, operando em múltiplas camadas lógicas. O ecossistema é composto por uma **Single Page Application (SPA)** no Front-end, uma **API RESTful** estruturada no Back-end e um **Microsserviço Autônomo** focado na extração e integração de dados (*Web Scraping*) em python.
