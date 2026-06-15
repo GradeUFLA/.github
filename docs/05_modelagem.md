@@ -100,8 +100,8 @@ Relacionados à Gestão e Banco de Dados (Casos de Uso, Componentes e MER):
 
 ### 6.2. Diagrama de Componentes
 
+<img width="747" height="748" alt="image" src="https://github.com/user-attachments/assets/83022fd8-f378-40a0-99ae-442aa6d5b9f0" />
 
-<img width="1254" height="1254" alt="WhatsApp Image 2026-06-15 at 17 13 06" src="https://github.com/user-attachments/assets/9d646113-da98-41fd-b497-1c7517ed3237" />)
 
 ### 6.3. Modelo de Dados
 
