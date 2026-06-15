@@ -27,7 +27,7 @@ Permitir a exportação da grade planejada em formato de imagem, ou vincular dir
 ### 2.3. Perfis de usuário
 
 - **Usuário:** Consulta disciplinas e turmas disponíveis por curso e período, adiciona ou remove turmas numa grade horária interativa para simular o seu semestre, visualiza conflitos de horários, exporta o resultado final da simulação.
-- **Administrador:** Realiza autenticação segura, monitoriza métricas de uso e engajamento dos alunos através de analytics, gerencia manualmente dados de disciplinas ou turmas em caso de inconsistências, aciona manualmente o bot de scraping para sincronização de dados com o SIG.
+- **Administrador:** Realiza autenticação segura, monitoriza métricas de uso e engajamento dos alunos através de analytics, gerencia manualmente dados de disciplinas ou turmas em caso de inconsistências.
 
 ---
 
