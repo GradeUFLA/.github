@@ -62,18 +62,17 @@ O projeto seguirá os preceitos ágeis (Scrum), coordenado pelo Product Owner (P
     │   ├── 05_modelagem.md
     │   ├── 06_arquitetura_e_projeto.md
     │   ├── 07_padroes_de_projeto.md
-    │   ├── 08_testes.md
-    │   ├── 09_entregas_incrementais.md
-    │   └── 10_apresentacao_final.md
+    │   ├── 08_arquitetura_do_sistema.md
+    │   ├── 09_testes.md
+    │   ├── 10_entregas_incrementais.md
+    │   └── 11_apresentacao_final.md
     ├── sprints
     │   ├── sprint_01.md
     │   ├── sprint_02.md
     │   ├── sprint_03.md
     │   ├── sprint_04.md
     │   ├── sprint_05.md
-    │   ├── sprint_06.md
-    │   ├── sprint_07.md
-    │   └── sprint_08.md
+    │   └── sprint_06.md
 ```
 
 ---
