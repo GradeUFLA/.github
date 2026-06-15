@@ -59,13 +59,12 @@ Relacionados à Gestão e Banco de Dados (Casos de Uso, Componentes e MER):
 - RF22: O sistema deve exigir autenticação via e-mail e senha para acesso ao painel administrativo.  
 - RF28: O sistema deve exibir na tela de Analytics métricas de uso.   
 - RF31: O sistema deve permitir ao administrador criar, editar e deletar matérias, cursos e horários manualmente. 
-- RF35: O sistema deve permitir ao administrador acionar manualmente a execução dos bots de scraping.
 - RF37: O sistema deve registrar todas as ações administrativas no feed de atividades.
 
 ### Requisitos não funcionais
 
 - RNF04: O fluxo de montagem de grade deve ser concluível sem necessidade de cadastro ou login pelo estudante .  
-- RNF05: O painel administrativo deve ser protegido por autenticação JWT. .  
+- RNF05: O painel administrativo deve ser protegido por autenticação JWT.  
 - RNF10: O backend deve seguir arquitetura RESTful.  
 - RNF12: Os dados de matérias, cursos e horários devem ser sincronizados com o SIG via bots de scraping.
 
