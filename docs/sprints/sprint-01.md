@@ -1,4 +1,4 @@
-# Sprint 01 - [Registros da Reunião](https://github.com/GradeUFLA/.github/issues/5)
+# Sprint 01 
 
 ## 1. Identificação 
 * **Número da sprint:** 01 
@@ -15,7 +15,6 @@ Definir o problema a ser tratado, estabelecer a visão inicial do produto, organ
 * **Objetivos do Projeto:** Facilitar a montagem da grade, evitar conflitos de horário e fornecer um painel administrativo com analytics de uso .
 
 ## 4. Planejamento e Backlog 
-* **Product Backlog Inicial:** [Backlog inicial]( https://github.com/orgs/GradeUFLA/projects/1/views/2)
 * **Planejamento Sprint 1:** Setup do GitHub, definição de stack e documentação inicial.
 * **Planejamento Sprint 2:** Levantamento de requisitos, histórias de usuário e prototipação inicial.
 
@@ -35,7 +34,6 @@ Esta sprint articula os conteúdos introdutórios de Engenharia de Software e Pr
 
 ## 8. Evidências da evolução do software
 * **Arquivos criados/atualizados:** `README.md`, `/docs/sprints/sprint-01.md` .
-* **Quadro Kanban:** [Quadro do GitHub Projects](https://github.com/orgs/GradeUFLA/projects/1/views/2) .
 
 ## 9. Dificuldades Encontradas 
 * Padronização de toda documentação do Software
@@ -49,4 +47,12 @@ Esta sprint articula os conteúdos introdutórios de Engenharia de Software e Pr
 * Iniciar o levantamento e documentação dos Requisitos Funcionais e Não Funcionais .
 * Refinar as Histórias de Usuário .
 
+# 12. Evidências das reuniões
 
+<img width="578" height="777" alt="Image" src="https://github.com/user-attachments/assets/3f65b94b-6052-4116-b23e-f3665fbbb11e" />
+
+<img width="579" height="770" alt="Image" src="https://github.com/user-attachments/assets/0dc06c76-4b8c-40f4-8797-f8410753fd2e" />
+
+<img width="582" height="773" alt="Image" src="https://github.com/user-attachments/assets/5a17b38c-1b7b-4d14-b391-760ff9e926e8" />
+
+[Slides da Reunião](https://docs.google.com/presentation/d/1Y1n-qYWa6H7lNTsznyrcPooQ60ys4yR5/edit?usp=sharing&ouid=116359118915165243992&rtpof=true&sd=true)
