@@ -81,7 +81,6 @@ Relacionados à Gestão e Banco de Dados (Casos de Uso, Componentes e MER):
 | **RF05 – Autenticação para administradores** | Casos de Uso / Componentes / Modelo de Dados | Mostra a segurança via API REST (Backend) e a tabela `admin` no banco de dados. |
 | **RF06 – CRUD Administrativo** | Casos de Uso / Modelo de Dados | Representa as ações de manutenção do PO/Admin e define as entidades que podem ser alteradas (Cursos, Turmas). |
 | **RF07 – Painel de Analytics e Logs** | Casos de Uso / Modelo de Dados | Representado pela ação de visualização gerencial e estruturado nas tabelas de `log` do sistema. |
-| **RF08 – Acionar bot de scraping manual** | Casos de Uso / Componentes | Ilustra a arquitetura de automação isolada (Python) e a interação do Admin com esse serviço. |
 | **RNF01 – API Backend (Java/Spring)** | Componentes | Evidencia o isolamento das rotas de negócio em um servidor de aplicação dedicado. |
 | **RNF02 – Banco PostgreSQL** | Modelo de Dados / Componentes | Base tecnológica que fundamentou a criação do Modelo Entidade-Relacionamento (MER). |
 | **RNF03 – Automação de extração (Python)** | Componentes | Mostra o bot como um serviço apartado que insere dados diretamente no banco, sem sobrecarregar a API. |
