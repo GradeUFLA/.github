@@ -90,7 +90,7 @@ O escopo inicial do sistema foi dividido em dois grandes blocos de funcionalidad
 - Realizar login seguro e exclusivo para os administradores do sistema.
 - Executar operações de CRUD para as disciplinas, turmas e horários.
 - Acompanhar o engajamento através de painéis de Analytics de acesso e uso.
-- Acionar manualmente (via trigger de API) o bot responsável por fazer o scraping das informações atualizadas do SIG.
+- Realizar o upload do pacote de dados (.zip) gerado pelo bot de scraping, para ser consumido pela API do Back-end para sincronização da base de dados do SIG UFLA.
 
 ## 5. Entregas previstas
 
