@@ -107,7 +107,7 @@ Relacionados à Gestão e Banco de Dados (Casos de Uso, Componentes e MER):
 
 ### 6.3. Modelo de Dados
 
-![Modelo de Dados](<img width="1486" height="842" alt="Untitled" src="https://github.com/user-attachments/assets/7184f8bb-d998-4ee3-9a6a-74415654affd" />)
+![Modelo de Dados]<img width="1486" height="842" alt="Untitled" src="https://github.com/user-attachments/assets/7184f8bb-d998-4ee3-9a6a-74415654affd" />
 
 
 ### 6.4. Diagrama de Sequência
