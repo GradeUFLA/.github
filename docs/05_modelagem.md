@@ -131,7 +131,7 @@ Frontend Web (React): Interface do usuário dividida em módulos para o Estudant
 
 Backend API (Spring Boot): Servidor centralizado que expõe rotas REST, processa regras de negócio e gerencia autenticação.
 
-Servidor de Automação (Python): Componente independente acionado via Cron ou trigger manual, responsável por fazer o web scraping no SIG da UFLA e atualizar os dados ativamente.
+Servidor de Automação (Python): Script executado manualmente pelo administrador fora da aplicação principal. Sua função é realizar a coleta de dados do SIG da UFLA por meio de web scraping e gerar as atualizações necessárias para o banco de dados.
 
 Banco de Dados (PostgreSQL): Centraliza as informações consumidas pela API e alimentadas pelo script Python.
 
