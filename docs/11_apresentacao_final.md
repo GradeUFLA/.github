@@ -38,12 +38,12 @@ O grande diferencial tecnológico e arquitetural veio nas **Sprints 5 e 6** com 
 ---
 
 ## 4. Materiais de apoio
-- slides da apresentação;
-- protótipos (Figma);
-- diagramas UML e Modelo Relacional do Banco de Dados;
-- backlog do produto no GitHub Projects;
-- evidências de testes (PDFs de auditoria do banco de dados e logs de API);
-- link do repositório contendo todo o código-fonte (Front-end, Back-end e Bot).
+- [Slides da apresentação](https://drive.google.com/file/d/1Cdy4mfhYnRucA9N2T3gSuym5MKkTEyQW/view?usp=sharing)
+- [Protótipos (Figma)](https://www.figma.com/design/eiKuAq5s1lb37Z5TEMhdLp/grade-final?node-id=0-1&t=BkKfAhfDWxiT1v0y-1)
+- [Diagramas UML e Modelo Relacional do Banco de Dados](https://github.com/GradeUFLA/.github/blob/main/docs/05_modelagem.md)
+- [backlog do produto no GitHub Projects](https://github.com/GradeUFLA/.github/blob/main/docs/03_product_backlog.md)
+- [Evidências de testes (PDFs de auditoria do banco de dados e logs de API)](https://github.com/GradeUFLA/.github/blob/main/docs/09_testes.md)
+- link do repositório contendo todo o código-fonte ([Front-end](https://github.com/GradeUFLA/front), [Back-end](https://github.com/GradeUFLA/backend) e [Bot](https://github.com/GradeUFLA/dados)).
 
 ---
 
