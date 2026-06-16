@@ -20,37 +20,37 @@ Realizar a entrega final do sistema **gradeUFLA**. O foco desta sprint é finali
 | [US08] Tela de Analytics - Administrador #15 | JoseVitorMachado | História de Usuário | Concluído  |
 | [US09] Tela de Dados - Administrador #16 | JoseVitorMachado | História de Usuário |  Concluído |
 | [US10] Upload da grade #12 | JoseVitorMachado | História de Usuário | Concluído  |
-| Front-end: Tela de Montagem de grade #36 | Jhennifer-silva | Front-End | Em andamento  |
+| Front-end: Tela de Montagem de grade #36 | Jhennifer-silva | Front-End | Em testes  |
 | Front-end: Login de Usuário - Admin #39 | Jhennifer-silva | Front-End | A fazer |
 | Front-end: Tela de Dashboard- Admin #42 | Jhennifer-silva | Front-End | A fazer  |
 | Front-end: Tela de Analytics - Admin #45 | Jhennifer-silva | Front-End | A fazer  |
 | Front-end: Tela de dados - Admin #48 | Jhennifer-silva | Front-End |  A fazer |
 | Exportar a grade em .jpg #51 | Jhennifer-silva | Front-End | A fazer  |
-| Configurar o banco de dados PostgreSQL em ambiente... #61 | babifonsec | Back-End, Banco de Dados | Cancelado |
+| Configurar o banco de dados PostgreSQL em ambiente... #61 | babifonsec | Back-End, Banco de Dados | Concluído |
 | Integração: tela de login #66 | Jhennifer-silva | Front-End | A fazer |
-| Integração: tela montagem de grade #68 | Jhennifer-silva | Front-End | Em andamento |
+| Integração: tela montagem de grade #68 | Jhennifer-silva | Front-End | Em testes |
 | Integração: Tela de Dashboard - Admin #74 | Jhennifer-silva | Front-End |A fazer |
 | Integração: Tela de Analytics - Administrador #75 | Jhennifer-silva | Front-End |  A fazer ] |
 | Integração: Tela de Dados - Administrador #76 | Jhennifer-silva | Front-End |  A fazer |
 | [US11] Criação de um bot para coleta de dados (Scraping) #77 | JoseVitorMachado | História de Usuário | Concluído|
 | Integração: Integrar o botão de acionamento manual do bot #84 | Jhennifer-silva | Front-End | Cancelado |
-| Atualização dos modelos ou diagramas #89 | Não atribuído | Documentação | A fazer |
-| Integração: Tela de conclusões de matérias #90 | Jhennifer-silva | Front-End | A fazer |
-| Melhorias no design baseadas nos comentários #91 | clararochag | Design | Em andamento |
-| Pop-up compartilhar grade #92 | clararochag | Design | A fazer |
-| Responsividade para telas mobile - Telas públicas #93 | clararochag | Design | Em andamento |
+| Atualização dos modelos ou diagramas #89 | Não atribuído | Documentação | Concluído |
+| Integração: Tela de conclusões de matérias #90 | Jhennifer-silva | Front-End | Concluído |
+| Melhorias no design baseadas nos comentários #91 | clararochag | Design | Concluído |
+| Pop-up compartilhar grade #92 | clararochag | Design | Concluído |
+| Responsividade para telas mobile - Telas públicas #93 | clararochag | Design | Concluído |
 | Otimizar o bot #95 | babifonsec | scraping-bot | Em andamento  |
-| Exportar grade para o google agenda #97 | Jhennifer-silva | Front-End | Em andamento |
-| Ajustar o código do bot para compactar os arquivos JSON #98 | babifonsec | scraping-bot |A fazer  |
-| Realizar o Deploy da aplicação para deixar o sistema... #99 | FernandoScarabelli | Back-End | A fazer |
-| Modificar o protótipo da tela de Dados (Admin) #100 | clararochag | Design |  A fazer |
-| Endpoint upload .zip - Tela de dados (Admin) #101 | FernandoScarabelli | Back-End | A fazer  |
-| Implementar a lógica de envio do arquivo .zip na tela... #102 | Jhennifer-silva | Front-End | A fazer  |
+| Exportar grade para o google agenda #97 | Jhennifer-silva | Front-End | Em testes |
+| Ajustar o código do bot para compactar os arquivos JSON #98 | babifonsec | scraping-bot | Concluído  |
+| Realizar o Deploy da aplicação para deixar o sistema online #99 | FernandoScarabelli | Back-End | Concluído |
+| Modificar o protótipo da tela de Dados (Admin) #100 | clararochag | Design | Concluído |
+| Endpoint upload .zip - Tela de dados (Admin) #101 | FernandoScarabelli | Back-End | concluído  |
+| Implementar a lógica de envio do arquivo .zip na tela de dados (Admin) #102 | Jhennifer-silva | Front-End | A fazer  |
 | Atualizar toda a documentação para o novo modelo... #103 | JoseVitorMachado | Documentação |Concluído|
-| Documentação - Entregas_incrementais #104 | JoseVitorMachado | Documentação | A fazer |
-| Documentação - Apresentação #105 | JoseVitorMachado | Documentação | A fazer |
-| relatório sprint 06 #106 | JoseVitorMachado | Documentação |  A fazer |
-| Gravação do vídeo para apresentação - youtube #108 | JoseVitorMachado | Documentação |  A fazer |
+| Documentação - Entregas_incrementais #104 | JoseVitorMachado | Documentação | Concluído |
+| Documentação - Apresentação #105 | JoseVitorMachado | Documentação | Concluído |
+| relatório sprint 06 #106 | JoseVitorMachado | Documentação |  Concluído |
+| Gravação do vídeo para apresentação - youtube #108 | JoseVitorMachado | Documentação |  concluído |
 
 ## 4. Relação com o conteúdo da disciplina
 Nesta sprint final, aplicamos profundamente conceitos de **Deploy, Entrega Contínua e Integração Final de Sistemas**. O encerramento das histórias de usuário e a adaptação emergente para processamento em lote (arquivos `.zip`) evidenciam a maturidade da equipe em lidar com restrições arquiteturais e entregar um produto de software funcional e alinhado aos princípios ágeis de adaptação e entrega de valor.
@@ -59,22 +59,26 @@ Nesta sprint final, aplicamos profundamente conceitos de **Deploy, Entrega Cont�
 - [A preencher no fim da sprint com links para o sistema em produção, repositório atualizado e documentação final]
 
 ## 6. Evidências no GitHub
-- **Arquivos criados/atualizados:** [A preencher no fim da sprint]
-- **Commits relevantes:** [A preencher no fim da sprint]
-- **Tag da sprint:** [A preencher no fim da sprint - Ex: v1.0.0]
+
+<img width="1349" height="635" alt="image" src="https://github.com/user-attachments/assets/7d58fd6c-3020-4369-b74a-fb617253eef6" />
+https://github.com/GradeUFLA/.github/blob/main/docs/10_entregas_incrementais.md
+https://github.com/GradeUFLA/.github/blob/main/docs/11_apresentacao_final.md
 
 ## 7. Evolução da aplicação web
-- [A preencher no fim da sprint detalhando o projeto no ar, com Front-end, Back-end e Banco de Dados 100% integrados e funcionais]
+<img width="1270" height="751" alt="image" src="https://github.com/user-attachments/assets/ee1fab04-4471-4979-8ab5-2082ad0104ac" />
+<img width="1270" height="751" alt="image" src="https://github.com/user-attachments/assets/6bc34d43-cc2f-47a6-9f16-16a7528efef6" />
+<img width="691" height="876" alt="image" src="https://github.com/user-attachments/assets/f92a35cc-101a-4e26-920f-dfcf4614bb47" />
+<img width="1238" height="894" alt="image" src="https://github.com/user-attachments/assets/49750183-c2e7-4c71-8639-52ed54dcc1b1" />
+
+
+
 
 ## 8. Dificuldades encontradas
-- [A preencher no fim da sprint com os relatos finais da equipe (ex: desafios no deploy, conflitos de integração de última hora)]
+- Os principais desafios enfrentados ao longo do projeto foram a limitação de tempo e a dificuldade de conciliar as atividades da graduação com as demais demandas acadêmicas. Como consequência, algumas tarefas sofreram atrasos e precisaram ser replanejadas e implementadas em sprints posteriores, exigindo constantes ajustes no cronograma e na priorização das atividades.
 
-## 9. Revisão do incremento
-- **O que foi concluído:** [A preencher no fim da sprint, destacando o fechamento das US e a implantação do sistema]
-- **O que ficou pendente:** [A preencher no fim da sprint, caso haja débito técnico pós-entrega]
+- **O que ficou pendente:** O front-end das telas do administrador
 
 ## 10. Pendências para a próxima sprint
-- 
+- Finalizar o front-end das telas e fazer o deploy
+- Fazer melhorias no bot que ainda está com erros de duplicação de horários
 
-## 11. Registros das reuniões
-[A preencher com as imagens/prints da Planning e Review final desta sprint]
