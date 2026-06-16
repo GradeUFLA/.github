@@ -61,7 +61,19 @@ Nesta sprint final, aplicamos profundamente conceitos de **Deploy, Entrega Cont�
 ## 6. Evidências no GitHub
 
 <img width="1349" height="635" alt="image" src="https://github.com/user-attachments/assets/7d58fd6c-3020-4369-b74a-fb617253eef6" />
+
+<img width="1238" height="894" alt="image" src="https://github.com/user-attachments/assets/3b464119-515d-4ee4-9335-0fb5f0476a8d" />
+
+<img width="1270" height="464" alt="image" src="https://github.com/user-attachments/assets/ea66c8e6-260e-407c-b8ff-4b26ebfaca98" />
+
+<img width="1386" height="674" alt="image" src="https://github.com/user-attachments/assets/7594ccc7-68e4-45d5-a45c-46ef3451c937" />
+
+<img width="1381" height="796" alt="image" src="https://github.com/user-attachments/assets/2f9ba97c-4736-43a6-bb44-6228173a08ee" />
+
+
+
 https://github.com/GradeUFLA/.github/blob/main/docs/10_entregas_incrementais.md
+
 https://github.com/GradeUFLA/.github/blob/main/docs/11_apresentacao_final.md
 
 ## 7. Evolução da aplicação web
