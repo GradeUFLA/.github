@@ -15,6 +15,7 @@
 - José Vítor Machado de Oliveira - Product owner e Scrum Master <br>
 
 ### [Protótipo](https://www.figma.com/design/eiKuAq5s1lb37Z5TEMhdLp/grade-final?node-id=0-1&p=f&t=ygh4661XL0WzkUSq-0)
+### [Como testar o sistema](https://docs.google.com/document/d/1gMiau_jdEI69vj9sNpTDN-rhauMyz4T8BbEfUKFTekA/edit?usp=sharing)
 
 ## 2. Objetivo do trabalho
 
